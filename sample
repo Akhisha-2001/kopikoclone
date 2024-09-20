@@ -1,0 +1,137 @@
+<ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">COLLECTIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-white" href="#">NEWS & UPDATES</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-white" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-white" href="#">CONTACT US</a>
+            </li>
+          </ul>
+
+
+          <div class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 imagecontainer">
+                        <img class="img-fluid" width="860px" height="405px" src="Screenshot-2024-02-07-151701.webp">
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="kopikotext bg-black">
+          <p class="fw-normal container pt-4 textkopiko">Kopiko Coffee Candy is the World’s #1 selling coffee candy, made from the finest coffee beans, specially blended to give you enjoyment of real coffee without having to brew. It’s like having a cup of coffee wherever you go.</p>
+          <p class="fw-normal container pt-4 textkopiko">Our bite sized, individually wrapped candies are available in regular Coffee and Cappuccino flavors. We have many packaging options for you to choose from contact us for more information or visit our site.</p>
+        </div>
+
+        <img src="Screenshot-2024-02-07-151701.webp" width="806px" height="405px container">
+
+        .textkopiko{
+          font-size: 18px;
+          color: #b7b7b7;
+          margin-top: -8px;
+      }
+      .kopikotext{
+          background-color: black;
+      }
+
+
+      <div class="row bg-black">
+        <img src="a705e3f3e5e790a55c9a7311dcf3e4b3_h300_i5_0x0.jpg" class=" float-start">
+        <img src="13315476_1733027933606198_7623408530663400473_na2-.jpg" class="float-end">
+      </div>
+
+      <div class="slides bg-black">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="3D-S2031057457-KOPIKO-COFFEE-CANDY-4G-INNER-USA.png" class="d-block w-10" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="3D-S2031057466-KOPIKO-COFFEE-CANDY-120-G-OUTER-USA.png" class="d-block w-10" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="3D-S2031057467-KOPIKO-CAPPUCCINO-CANDY-120-G-OUTER-USA.png" class="d-block w-10" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="3D-S2062057632-KOPIKO-COFFEE-JAR-800G-USA.png" class="d-block w-10" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="3D-S2062057633-KOPIKO-CAPPUCINO-JAR-800G-USA.png" class="d-block w-10" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="IMG_20220615_150054.png" class="d-block w-10" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="KOPIKO-CAPPUCINO-COFFEE-CANDY-12-x-120-G-GB-USA_COMP01.png" class="d-block w-10" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <img src="Screenshot-2024-02-07-151701.webp" width="806px" height="405px" class="img-fluid" alt="...">
+
+      <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel"></div>
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-slider" data-slide-to="1"></li>
+          <li data-target="#carousel-slider" data-slide-to="2"></li>
+        </ol>
+        <!--Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="First slide">
+          </div>
+          <!--/First slide-->
+          <!--Second slide-->
+          <div class="carousel-item">
+            <video src="./video/video1.mp4" autoplay poster="./images/boardwalk.jpg"></video>
+          </div>
+          <!--/Second slide-->
+          <!--Third slide-->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide">
+          </div>
+          <!--/Third slide-->
+        </div>
+      </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div class="text-center bg-black mainimg">
+        <img src="Screenshot-2024-02-07-151701.webp" class="rounded mx-auto d-block" alt="...">
+        <div class="container bg-black imgtext">
+          <h3 class="text-white pt-3 img-text">Your Pocket Coffee,Anytime Anywhere !</h3>
+        </div>
+      </div>
+      
